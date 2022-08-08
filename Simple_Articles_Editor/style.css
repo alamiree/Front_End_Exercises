@@ -1,0 +1,68 @@
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Dongle', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article {
+    background-color: #eee;
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#fonts {
+    padding: 8px 10px;
+    border: 0;
+    outline: 0;
+}
+
+.para {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 20px 10px;
+    line-height: 1.6;
+}
+
+.fontWeigth {
+    background-color: #fff;
+    padding: 8px 10px;
+    margin: 0 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.minus,
+.plus {
+    background-color: #fff;
+    padding: 8px 10px;
+    width: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: #eee;
+}
+
+.fontSize {
+    background-color: #fff;
+    padding: 8px 10px;
+    width: 30px;
+}
+
+.changeBg {
+    margin: 0 4px;
+    background-color: #fff;
+    padding: 8px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin: 50px auto;
+}
+#list-form{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#list-form #name{
+    width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+}
+#list-form #add{
+    width: 18%;
+    margin-left: 2%;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.task{
+    display: flex;
+    padding: 15px 10px;
+    background-color: rgba(158, 158, 158, .22);
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.del-task{
+    background-color: #ff1100;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}

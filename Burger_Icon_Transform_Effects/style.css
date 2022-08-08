@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu span {
+    display: block;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    transition: all .5s ease-in-out;
+}
+
+/* .menu:hover span {
+    margin-bottom: 0;
+} */
+.first.turn-left {
+    transform: rotateZ(45deg);
+}
+
+.second.hide {
+    display: none;
+}
+
+.third.turn-right {
+    transform: rotateZ(-45deg);
+}
+
+/* .menu:hover span:nth-of-type(2) {
+    display: none;
+}
+
+.menu:hover span:first-of-type {
+    transform: rotateZ(45deg);
+}
+
+.menu:hover span:last-of-type {
+    transform: rotateZ(-45deg);
+} */

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+#password {
+    width: 400px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.show {
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
